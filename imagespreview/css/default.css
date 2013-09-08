@@ -1,0 +1,14 @@
+/* 默认全屏预览样式 */
+.images-preview-fullscreen-ct { display:none; position:fixed; z-index:999; left:0; right:0; bottom:0; top:0; }
+.images-preview-fullscreen-ct .loader { position:absolute; z-index:5; width:64px; height:64px; top:50%; left:50%; margin-left:-32px; margin-top:-32px; background:#000 url(../../img/meitian/loader.gif) no-repeat 50% 50%; opacity:.5; filter:alpha(opacity=50); border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+.images-preview-fullscreen-ct .cover-bg { position:absolute; z-index:1; left:0; right:0; bottom:0; top:0; background-color:#000; opacity:0; filter:alpha(opacity=0); }
+.images-preview-fullscreen-ct .show-ct { position:absolute; z-index:2; left:0; right:0; top:40px; bottom:100px; }
+.images-preview-fullscreen-ct .show-ct .curr-pic { display:none; position:absolute; z-index:2; top:50%; left:50%; width:400px; height:400px; margin:-200px 0 0 -200px; box-shadow:0 1px 20px rgba(0,0,0,.3); }
+.images-preview-fullscreen-ct .hide-bt { position:absolute; z-index:4; top:-20px; right:20px; width:50px; height:50px; background:url(../../img/meitian/preview-buttons.png) no-repeat center -400px; }
+.images-preview-fullscreen-ct .hide-bt:hover { background-position:center -450px; }
+.images-preview-fullscreen-ct .preview-page-bt { display:block; position:absolute; z-index:3; width:50%; left:0; top:0; bottom:0; font-size:20px; line-height:1em; color:#000; background:transparent url(data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAABAAEAAAICVAEAOw==); }
+.images-preview-fullscreen-ct .preview-page-bt .str { position:absolute; left:0px; width:100px; height:100px; margin-top:-50px; top:50%; background:url(../../img/meitian/preview-buttons.png) no-repeat center -200px; }
+.images-preview-fullscreen-ct .preview-page-bt:hover .str { background-position:center -300px; }
+.images-preview-fullscreen-ct .next-bt { left:auto; right:0; }
+.images-preview-fullscreen-ct .next-bt .str { left:auto; right:0; background-position:center 0; }
+.images-preview-fullscreen-ct .next-bt:hover .str { background-position:center -100px; }
