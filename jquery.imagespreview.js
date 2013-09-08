@@ -11,8 +11,7 @@
 		var _clearMark = 5;
 		var _hideOthersIntervalId = null;
 		var _hideOthersInterval = function(){
-		
-		_hideOthersIntervalId = setInterval(function(){
+			_hideOthersIntervalId = setInterval(function(){
 				_clearMark--;
 				if (_clearMark < 1) {
 					_this.hidePageButton();
