@@ -3,6 +3,7 @@
  * author: zhouz
  * email: 523612913@qq.com
  * date: 2013-09-08
+ * github: https://github.com/zhouz1986/imagespreview
  */
 ;(function($){
 	var oper = function(documents, options){
